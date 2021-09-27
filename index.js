@@ -1,4 +1,4 @@
-// Your code here
+
 const dodger = document.getElementById("dodger");   function moveDodgerLeft() {
     const leftNumbers = dodger.style.left.replace("px", "");
     const left = parseInt(leftNumbers, 10);
@@ -23,3 +23,5 @@ const dodger = document.getElementById("dodger");   function moveDodgerLeft() {
       moveDodgerRight();
     }
   });
+
+
